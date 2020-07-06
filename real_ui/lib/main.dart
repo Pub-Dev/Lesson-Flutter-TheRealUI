@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:real_ui/pages/quiteBetterUI.dart';
-import 'package:real_ui/pages/simpleUI.dart';
+import 'package:real_ui/pages/normalUI.dart';
+import 'package:real_ui/pages/simplifiedUI.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,8 +17,8 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: Scaffold(
-        //body: SimpleUI(),
-        body: QuiteBetterUI()
+        body: NormalUI(),
+        //body: QuiteBetterUI()
       ),
     );
   }
